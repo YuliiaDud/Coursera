@@ -42,7 +42,7 @@ h1 {
   margin-bottom: 100px;
   font-size: 50px;
 }
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 1200px) {
   .tablet-big {
     width: calc(88% + 35px);
     margin-left: 25px;
