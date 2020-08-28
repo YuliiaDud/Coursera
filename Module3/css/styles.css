@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.big-container {
+  width: 95%;
+  float: left;
+  margin: 10px;
+  margin-left: 40px;
+  background: linear-gradient(555.95deg, #e9adbf 2.78%, #ffffff 45.93%);
+  border: black 2px solid;
+  padding: 50px 30px 20px 20px;
+  position: relative;
+}
+
+.sushi {
+  background-color: rgb(230, 229, 161);
+}
+.chicken {
+  background-color: rgb(233, 175, 178);
+}
+.beef {
+  background-color: rgb(172, 51, 51);
+  color: aliceblue;
+}
+h2 {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 50px;
+}
+.visibility {
+  visibility: hidden;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .tablet-big {
+    width: calc(88% + 35px);
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+  .tablet-small {
+    width: 44%;
+    margin-left: 25px;
+    float: left;
+  }
+}
+@media (min-width: 200px) and (max-width: 767px) {
+  .big-container {
+    margin: 20px 10px 10px 20px;
+    width: 90%;
+    float: none;
+  }
+}
+@media (min-width: 200px) and (max-width: 575px) {
+  .visibility {
+    visibility: initial;
+  }
+}
+h1 {
+  color: #212529;
+}
+.navbar {
+  background: linear-gradient(155.95deg, #e9adbf 2.78%, #ffffff 45.93%);
+}
